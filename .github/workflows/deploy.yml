@@ -1,0 +1,55 @@
+name: Production Deploy 
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [24.x]
+        
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm install
+    - run: npm run docs:build
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: docs-build
+        path: docs/.vitepress/dist
+
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: docs-build
+        path: /tmp/docs-build
+    
+    - name: rsync Deploy
+      env:
+        dest: 'hamakademie_cz@hamakademie.cz:web'
+      run: |
+        echo "${{secrets.DEPLOY_SSH_KEY}}" > deploy_key
+        chmod 600 ./deploy_key
+        rsync -chrlvzi --delete \
+          -e 'ssh -i ./deploy_key -p 50022 -o StrictHostKeyChecking=no' \
+          --exclude '/deploy_key' \
+          --exclude '/.*/' \
+          --exclude '.*' \
+          --exclude '/cgi-bin/' \
+          --exclude 'README.md' \
+          --exclude '.DS_Store' \
+          /tmp/docs-build/* ${{env.dest}}
