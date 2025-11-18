@@ -1,0 +1,41 @@
+name: "hamakademie"
+services:
+    # development server
+    dev-server:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      command: npx vitepress dev docs --host
+      environment:
+        - WDS_SOCKET_HOST=127.0.0.1 
+        - CHOKIDAR_USEPOLLING=true
+        - WATCHPACK_POLLING=true
+      volumes:
+        - "./:/app"
+      ports:
+        - "5173:5173"
+
+    # builds the production version of the web
+    builder:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      command: npm run docs:build
+      volumes:
+        - "./:/app"
+
+
+    # builds the base docker image and install dependencies
+    installer:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      command: >
+        /bin/sh -c "npm add -D vitepress@next 
+        && npm i @miletorix/vitepress-youtube-embed"
+      volumes:
+        - "./:/app"
+
+
+    
+
