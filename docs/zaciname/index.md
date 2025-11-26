@@ -2,7 +2,7 @@
 
 ![title image](./uvod.png)
 
-Ahoj, vítej ve fascinujícím světě amatérského rádia, vítej na našich frekvenčních pásmech!
+Ahoj, vítej ve fascinujícím světě amatérského rádia!
 
 Náš portál ti nastíní **o čem toto skvělé hobby je**, pomůže ti **připravit se na zkoušky** a **ukáže ti základy radioamatérského provozu**,
 které budeš se svým nově nabytým [oprávněním](/priprava-ke-zkouskam/#prukaz-odborne-zpusobilosti) potřebovat. 

@@ -18,7 +18,7 @@ byli radioamatéři? Kdyby žili v dnešní době a podařilo by se ti s nimi sp
  mohli byste si povídat jako staří známí. 
 
 **Často ovládá jeden nebo více cizích jazyků**. HAM radio je hobby celosvětové a u většiny mezinárodních 
-spojení se používá jako jazyk angličtina. Ale neboj, není potřeba hovořit plynně anglicky - pro uskutečnení spojení ze začátku stačí pár naučených frází. A co je nejlepší? S každým uskutečněným spojením se zlepšuješ a ztrácíš trému. Provozováním radioamatérského hobby také získáváš nenásilnou formou znalosti například z fyziky, elektroniky, zeměpisu a dalších věd.
+spojení se používá jako jazyk angličtina. Ale neboj, není potřeba hovořit plynně anglicky - pro uskutečnění spojení ze začátku stačí pár naučených frází. A co je nejlepší? S každým uskutečněným spojením se zlepšuješ a ztrácíš trému. Provozováním radioamatérského hobby také získáváš nenásilnou formou znalosti například z fyziky, elektroniky, zeměpisu a dalších věd.
 
 **Radioamatér může pomáhat v krizových situacích**. Dle mezinárodních předpisů ITU (Mezinárodní Telekomunikační Unie) 
 může být radioamatérská stanice použita v zájmu třetí osoby pro zajištění komunikace v případě přírodních katastrof.

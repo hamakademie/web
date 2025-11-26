@@ -4,8 +4,8 @@ Amatérské rádio, radioamatérství, nebo anglicky HAM radio, je **zastřešuj
 které mají společného jmenovatele - **rádiové vlny**.
 
 Je to **technické hobby**, které je trochu věda, trochu dobrodružství a někdy se může zdát, že i magie. 
-Někteří lidé ve volném čase chodí rybařit, jiní sbírají známky a někdo má rád geocaching. My, radioamatéři,
-**milujeme navazování kontaktů přes rádiové vlny** s dalšími radioamatéry, ať už jsou poblíž místa ze kterého
+Někteří lidé ve volném čase chodí rybařit, jiní sbírají známky, a někdo má rád geocaching. My, radioamatéři,
+**milujeme navazování kontaktů s ostatními radioamatéry prostřednictvím rádiových vln**. Protistanice může být poblíž místa ze kterého
 právě vysíláme, na odvrácené straně naší planety, nebo třeba **na oběžné dráze Země ve vesmírné stanici**.
 A toto všechno, a ještě mnohem víc, je možné jen s vlastní vysílačkou (přesněji transceiverem) a patřičnou anténou, 
 **bez závislosti na Wi-Fi, mobilním signálu, či internetu**.
@@ -19,7 +19,7 @@ Máme mezi sebou však i zástupkyně něžného pohlaví. Nevěříte? Kouknět
 Amatérské rádio si neklade za cíl nahradit zmíněnou infrastrukturu internetu a mobilních telefonů, ani s ní nijak soupeřit.
 Naše hobby je o **experimentování, vzdělávání se, objevování**, a někdy i o posouvání hranic toho, co rádiové 
 vlny umožní - nejzkušenější z nás dělají například spojení **odrazem rádiových vln od měsíce nebo meteoritů**.
-V případě potřeby mohou radioamatéři také poskytnout pomoc se zajišťěním komunikace při mimořádných událostech 
+V případě potřeby mohou radioamatéři také poskytnout pomoc se zajištěním komunikace při mimořádných událostech 
 a přírodních katastrofách.
 
 ::: tip Není to jen pro „geeky“
@@ -28,6 +28,6 @@ Stačí trochu zájmu, chuť učit se nové věci a získat oprávnění.
 A pak už sám můžeš zkusit, jaké to je — komunikovat s celým světem bez internetu, jen s vlastním vybavením a dovednostmi.
 :::
 
-Možná ti zatím stále není jasné, co to celé přesně znamená. Pojďme se tedy mrknout na některé konkrétní aktivity,
+Možná ti zatím stále není jasné, co přesně to celé znamená. Pojďme se tedy mrknout na některé konkrétní aktivity,
 které radioamatéři provozují.
 

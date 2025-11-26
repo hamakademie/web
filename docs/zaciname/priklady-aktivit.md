@@ -3,7 +3,7 @@
 Následující seznam obsahuje nejčastější radioamatérské aktivity, zdaleka však není kompletní.
 
 ### 📡 Hlasová spojení
-Když se řekne vysílačka, většina z nás si představí člověka, který mluví přímo do mikrofonu ruční nebo stolní radiostanice. Spojení se mohou uskutečnit v rámci tvého města, nebo klidně i na odrvácenou stranu planety. UKAZKA HERE
+Když se řekne vysílačka, většina z nás si představí člověka, který mluví přímo do mikrofonu ruční nebo stolní radiostanice. Spojení se mohou uskutečnit v rámci tvého města, nebo klidně i na odvrácenou stranu planety. UKAZKA HERE
 
 ### 🔔 Telegrafická spojení
 Obyčejného člověka možná překvapí, že mnoho radioamatérů i v dnešní moderní době navazuje spojení pomocí telegrafie,
@@ -11,14 +11,14 @@ tedy za pomoci morseovy abecedy. Telegrafie je elegantní, efektivní a umožní
 
 ### 🛰️ Komunikace přes satelity
 Radioamatéři mají vlastní družice! Pomocí jednoduché antény a odpovídající radiostanice můžeš jen přijímat, 
-nebo s trochu sofisitkovanějším zařízením i vysílat s ostatními radioamatéry.
+nebo s trochu sofisitkovanějším zařízením i vysílat a komunikovat s ostatními radioamatéry.
 
 ### 🏆 Soutěže a lov vzácných stanic
-Kdo naváže nejvíce spojení s co nejvzdáleněnšími stanicemi za daný časový úsek? Radioamatérské závody jsou plné 
+Kdo naváže nejvíce spojení s co nejvzdálenějšími stanicemi za daný časový úsek? Radioamatérské závody jsou plné 
 napětí, taktiky a mohou trvat třeba hodinu, u největších celosvětových závodů klidně i  několik dní v řadě.
 
 ### 🏕️ Vysílání z přírody  
-Vezmi rádio, anténu a baterii — a vydej se do hor, lesa nebo na louku. Každé vysílání z přírody má své kouzlo a 
+Vezmi rádio, anténu a baterii a vydej se do hor, lesa nebo na louku. Každé vysílání z přírody má své kouzlo a 
 spojuje ham radio s turistikou nebo třeba cyklistikou. Ideální příležitost poznat nová místa a pobyt na čerstvém vzduchu spojit s vysíláním.
 
 ### 🌪️ Nouzová a krizová komunikace  

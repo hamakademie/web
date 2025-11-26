@@ -1,11 +1,11 @@
 # Jak se stát radioamatérem?
 
 ## 1. Připrav se na zkoušku
-Nastuduj vše potřebné pro zvolenou operátorskou třídu. Vše co potřebuješ vědět a znát nalezneš na tomto webu.
+Nastuduj vše potřebné pro zvolenou operátorskou třídu. Vše co potřebuješ vědět a znát najdeš na tomto webu.
 Především v sekci [příprava ke zkouškám](/priprava-ke-zkouskam/).
 
 ## 2. Podej přihlášku ke zkoušce
-Tomu, jak na to se věnujeme zvlášť v sekci [přihlášení ke zkouškám](/prihlaseni-ke-zkouskam/).
+Tomu, jak na to, se věnujeme zvlášť v sekci [přihlášení ke zkouškám](/prihlaseni-ke-zkouskam/).
 
 ## 3. Slož zkoušku
 Až se sejde dostatek přihlášených, ČTÚ vyhlásí termín zkoušky, kam dorazíš, a úspěšně vykonáš zkoušku. 
