@@ -23,3 +23,14 @@ Zatímco ITU se prostřednictvím svých předpisů zabývá základními otázk
 - [Doporučení CEPT T/R 61-02 (anglicky)](https://docdb.cept.org/document/926), které stanovuje požadavky na zkoušky pro získání průkazu odborné způsobilosti k obsluze stanice amatérské radiokomunikační služby.
 
 
+## Otázky ke zkoušce 🎓
+
+#### Třída A (HAREC)
+- [Testové otázky HAREC z kategorie Předpisy ITU](https://hamotazky.cz/harec/prohlizeni/predpisy-itu)
+- [Testové otázky HAREC z kategorie Předpisy CEPT](https://hamotazky.cz/harec/prohlizeni/predpisy-cept)
+- [Testové otázky HAREC z kategorie Předpisy vycházející z legislativy ČR](https://hamotazky.cz/harec/prohlizeni/predpisy-cr)
+
+#### Třída N (NOVICE)
+- [Testové otázky NOVICE z kategorie Předpisy ITU](https://hamotazky.cz/novice/prohlizeni/predpisy-itu)
+- [Testové otázky NOVICE z kategorie Předpisy CEPT](https://hamotazky.cz/novice/prohlizeni/predpisy-cept)
+- [Testové otázky NOVICE z kategorie Předpisy vycházející z legislativy ČR](https://hamotazky.cz/novice/prohlizeni/predpisy-cr)

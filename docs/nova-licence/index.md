@@ -1,6 +1,8 @@
-# Právě jsem získal licenci, co teď?
+# Právě jsem složil zkoušku, co teď?
 
 hura
+
+pockej na dopis / zaznam v databazi, doporucujuem usschovat a naskenovat - nektery sluzby ji potrebujou k registraci (o sluzbach dale)
 
 co muzu nemuzu, 
 

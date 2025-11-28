@@ -4,9 +4,9 @@ Gratulujeme k rozhodnutí udělat si zkoušky pro provoz na radioamatérských p
 informace o přípravě k získání dvou potřebných dokumentů.
 
 ## Průkaz odborné způsobilosti
-Celým názvem **Průkaz odborné způsobilosti pro obsluhu vysílacích rádiových zařízení amatérské radiokomunikační služby** vybrané třídy (o třídách viz dále). Tento dokument deklaruje, že uchazeč splnil všechny požadavky ke zkoušce pro získání průkazu odborné způsobilosti tak, jak je stanoveno v Doporučení CEPT T/R 61-02. Tento dokument je nutnou podmínkou pro získání vlastní radioamatérské volací značky. Tu však nezískám na základě tohoto dokumentu, ale až po zažádání o **Individuální oprávnění** (viz dále).
+Celým názvem **Průkaz odborné způsobilosti pro obsluhu vysílacích rádiových zařízení amatérské radiokomunikační služby** vybrané třídy (o třídách viz dále). Tento dokument deklaruje, že uchazeč splnil všechny požadavky ke zkoušce pro získání průkazu odborné způsobilosti tak, jak je stanoveno v Doporučení CEPT T/R 61-02. Tento dokument je nutnou podmínkou pro získání vlastní radioamatérské volací značky. Tu však nezískám na základě tohoto dokumentu, ale až po zažádání o **Individuální oprávnění** (viz dále). Průkaz odborné způsobilosti má neomezenou časovou platnost a je akceptován i v dalších zemích, které jsou členy CEPT, nebo přistoupily k Doporučení CEPT T/R 61-01.
 
-Průkaz odborné způsobilosti je někdy také nazývaný jako `vysvědčení` či `licence`.
+Průkaz odborné způsobilosti je někdy také nazývaný jako `licence`.
 
 ::: info Náhled hlavičky průkazu odborné způsobilosti HAREC operátora třídy A
 ![Průkaz odborné způsobilosti HAREC operátora třídy A](harec-preview.png)
@@ -60,7 +60,12 @@ V ČR byla povinná zkouška z telegrafie zrušena v roce 2005.
 
 
 ## Jak se všechny ty vědomosti mám naučit?
-neboj nejsi jedinej, zvladlo to hodne lidi, je dobry mit skupinku kamosu, hamotazky, mobil appky, nas discord? kurzy, radiokluby, samostudium zde
+Zpočátku na tebe bude nejspíš objem informací působit hrůzostrašně, ale věř, že **naprostá většina uchazečů o licenci zkoušku složila úspěšně**. Je několik způsobů, jak si cestu k nabytí potřebných vědomostí usnadnit. 
 
+Můžeš si ve svém okolí najít zkušeného operátora, třeba z nejbližšího radioklubu, který bude ochoten ti pomoci s vysvětlením toho, čemu nerozumíš. **Za nás doporučujeme zúčastnit se jednoho ze dvou kurzů**. Jeden pořádá [Český radioklub ](https://ceskyradioklub.cz/), výuka se odehrává v budově ČRK v Praze. [Druhý kurz](https://www.ok1zhv.eu/) probíhá v penzionu v malebném prostředí Orlických hor. Na obou se ti budou věnovat zkušení lektoři, kteří odpoví na každou tvou otázku. A jako bonus se seznámíš s dalšími budoucími radioamatéry, se kterými se můžete před zkouškami vzájemně podporovat a motivovat. 
+
+Další možností je samozřejmě i samostudium pomocí materiálů na tomto portálu.
+
+A rozhodně ti doporučujeme po celou dobu studia opakovaně procvičovat testové otázky a absolvovat cvičné testy na webu [hamotazky.cz](https://hamotazky.cz/). Ten obsahuje všechny aktuální otázky, na které pak při skládání zkoušky můžeš narazit. Případně pokud jsi náhodou uživatelem iPhone nebo iPadu, existuje pro trénink otázek a testů aplikace [Ham operátor](https://itunes.apple.com/app/apple-store/id6472734388?mt=8).
 
 
