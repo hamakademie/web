@@ -24,7 +24,16 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Příprava k získání licence',
+        text: 'Rádiový provoz',
+        items: [
+          { text: 'Základní informace', link: '/radiovy-provoz/' },
+          { text: 'Volací znak', link: '/radiovy-provoz/volaci-znak' },
+          { text: 'Systém RST', link: '/radiovy-provoz/system-rst' },
+          { text: 'Etika a ham spirit', link: '/radiovy-provoz/hamspirit' },
+        ]
+      },
+      {
+        text: 'Příprava k získání oprávnění',
         items: [
           { text: 'Příprava ke zkouškám', link: '/priprava-ke-zkouskam/' },
           { text: 'Radiokomunikační předpisy', link: '/priprava-ke-zkouskam/predpisy' },
@@ -42,18 +51,17 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Tvoje nová licence',
+        text: 'Tvoje nové oprávnění',
         items: [
-          { text: 'Právě jsem získal licenci', link: '/nova-licence/' },
+          { text: 'Právě jsem složil zkoušku', link: '/nove-opravneni/' },
         ]
       },
       {
-        text: 'Základy rádiového provozu',
+        text: 'O projektu',
         items: [
-          { text: 'Úvod', link: '/zaklady-provozu/' },
-          { text: 'Etika a ham spirit', link: '/zaklady-provozu/hamspirit' },
+          { text: 'O projektu HAM Akademie', link: '/o-projektu/' },
         ]
-      }
+      },
     ],
 
     // socialLinks: [

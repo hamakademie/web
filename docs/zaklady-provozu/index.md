@@ -1,3 +1,0 @@
-# zaklady provozu
-
-ahoj
