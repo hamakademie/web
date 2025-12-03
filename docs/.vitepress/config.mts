@@ -29,6 +29,7 @@ export default defineConfig({
           { text: 'Základní informace', link: '/radiovy-provoz/' },
           { text: 'Volací znak', link: '/radiovy-provoz/volaci-znak' },
           { text: 'Systém RST', link: '/radiovy-provoz/system-rst' },
+          { text: 'Šíření rádiových vln', link: '/radiovy-provoz/sireni-vln' },
           { text: 'Etika a ham spirit', link: '/radiovy-provoz/hamspirit' },
         ]
       },
