@@ -1,6 +1,6 @@
 # Systém RST
 
-**Kvalita rádiového spojení závisí na mnoha faktorech**: použitém vysílacím výkonu, anténě, vzdálenosti mezi stanicemi a také na aktuálních podmínkách [šíření rádiových vln](/radiovy-provoz/sireni-vln). Proto **je vždy zajímavé vědět, jak dobře mě protistanice slyší**. Pro posouzení kvality příjmu se po navázání spojení udává tzv. **report**. V radioamatérské praxi se k tomuto účelu používá **systém RST**.
+**Kvalita rádiového spojení závisí na mnoha faktorech**: použitém vysílacím výkonu, anténě, vzdálenosti mezi stanicemi a také na aktuálních podmínkách [šíření rádiových vln](/priprava-ke-zkouskam/radiovy-provoz/sireni-vln). Proto **je vždy zajímavé vědět, jak dobře mě protistanice slyší**. Pro posouzení kvality příjmu se po navázání spojení udává tzv. **report**. V radioamatérské praxi se k tomuto účelu používá **systém RST**.
 
 ## Struktura reportu
 Předávaný report (RST) sestává z následujících tří hodnot:

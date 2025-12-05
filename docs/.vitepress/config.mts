@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,18 +9,47 @@ export default defineConfig({
 
     nav: [
       { text: 'O amatérském rádiu', link: '/zaciname/' },
-      { text: 'Příprava ke zkouškám', link: '/priprava-ke-zkouskam/' }
+      { text: 'Příprava ke zkouškám', link: '/priprava-ke-zkouskam/' },
+      { text: 'Tvoje nové oprávnění', link: '/nove-opravneni/' },
+      { text: 'O projektu', link: '/o-projektu/' },
     ],
 
-    sidebar: [
+    sidebar: {
+      '/zaciname/': { base: '/zaciname/', items: sidebarGettingStarted() },
+      '/priprava-ke-zkouskam/': { base: '/priprava-ke-zkouskam/', items: sidebarExamPreparation() }
+    },
+
+    footer: {
+      message: '<a href="https://github.com/hamakademie/web">HAM Akademie</a> je open source',
+      copyright: 'Copyright © 2026 HAM Akademie'
+    },
+  }
+})
+
+
+function sidebarGettingStarted(): DefaultTheme.SidebarItem[] {
+  return [
       {
         text: 'O amatérském rádiu',
         items: [
-          { text: 'Úvod', link: '/zaciname/' },
-          { text: 'Co je to amatérské rádio', link: '/zaciname/co-je-to-amaterske-radio' },
-          { text: 'Příklady HAM aktivit', link: '/zaciname/priklady-aktivit' },
-          { text: 'Kdo je to radioamatér', link: '/zaciname/kdo-je-radioamater' },
-          { text: 'Jak se stát radioamatérem', link: '/zaciname/jak-se-stat-radioamaterem' },
+          { text: 'Úvod', link: '/' },
+          { text: 'Co je to amatérské rádio', link: '/co-je-to-amaterske-radio' },
+          { text: 'Příklady HAM aktivit', link: '/priklady-aktivit' },
+          { text: 'Kdo je to radioamatér', link: '/kdo-je-radioamater' },
+          { text: 'Jak se stát radioamatérem', link: '/jak-se-stat-radioamaterem' },
+        ]
+      },
+  ]
+}
+
+function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
+  return [
+      {
+        text: 'Úvod',
+        items: [
+          { text: 'Základní informace', link: '/' },
+          { text: 'Jak se přihlásit', link: '/jak-se-prihlasit' },
+          { text: 'Jak zkouška probíhá', link: '/jak-zkouska-probiha' },
         ]
       },
       {
@@ -34,44 +63,14 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Příprava k získání oprávnění',
+        text: 'Zkoušková témata',
         items: [
-          { text: 'Příprava ke zkouškám', link: '/priprava-ke-zkouskam/' },
-          { text: 'Radiokomunikační předpisy', link: '/priprava-ke-zkouskam/predpisy' },
-          { text: 'Rozvrh kmitočtů a druhů provozu', link: '/priprava-ke-zkouskam/rozvrh-kmitoctu' },
-          { text: 'Provozní dovednosti', link: '/priprava-ke-zkouskam/provozni-dovednosti' },
-          { text: 'Q kódy', link: '/priprava-ke-zkouskam/q-kody' },
-          { text: 'Hláskovací abeceda', link: '/priprava-ke-zkouskam/hlaskovaci-abeceda' },
+          { text: 'Radiokomunikační předpisy', link: '/zkouskova-temata/predpisy' },
+          { text: 'Rozvrh kmitočtů a druhů provozu', link: '/zkouskova-temata/rozvrh-kmitoctu' },
+          { text: 'Provozní dovednosti', link: '/zkouskova-temata/provozni-dovednosti' },
+          { text: 'Q kódy', link: '/zkouskova-temata/q-kody' },
+          { text: 'Hláskovací abeceda', link: '/zkouskova-temata/hlaskovaci-abeceda' },
         ]
       },
-      {
-        text: 'Přihlášení ke zkouškám',
-        items: [
-          { text: 'Jak se přihlásit', link: '/prihlaseni-ke-zkouskam/' },
-          { text: 'Jak zkouška probíhá', link: '/prihlaseni-ke-zkouskam/jak-zkouska-probiha' },
-        ]
-      },
-      {
-        text: 'Tvoje nové oprávnění',
-        items: [
-          { text: 'Právě jsem složil zkoušku', link: '/nove-opravneni/' },
-        ]
-      },
-      {
-        text: 'O projektu',
-        items: [
-          { text: 'O projektu HAM Akademie', link: '/o-projektu/' },
-        ]
-      },
-    ],
-
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ],
-
-    footer: {
-      message: '<a href="https://github.com/hamakademie/web">HAM Akademie</a> je open source',
-      copyright: 'Copyright © 2026 HAM Akademie'
-    },
-  }
-})
+  ]
+}
