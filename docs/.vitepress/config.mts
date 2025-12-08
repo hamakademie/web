@@ -49,6 +49,7 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
         items: [
           { text: 'Základní informace', link: '/' },
           { text: 'Jak se přihlásit', link: '/jak-se-prihlasit' },
+          { text: 'Jak vyplnit formuláře', link: '/jak-vyplnit-formulare' },
           { text: 'Jak zkouška probíhá', link: '/jak-zkouska-probiha' },
         ]
       },

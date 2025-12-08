@@ -32,7 +32,8 @@ services:
         dockerfile: Dockerfile
       command: >
         /bin/sh -c "npm add -D vitepress@next 
-        && npm i @miletorix/vitepress-youtube-embed"
+        && npm i @miletorix/vitepress-youtube-embed
+        && npm i vue-sound --save-dev"
       volumes:
         - "./:/app"
 

@@ -41,6 +41,17 @@ Nezapomínejme, že ham radio je hobby. A hobby je ze své definice něco, co by
 
 
 <YouTubeEmbed video-id="QReg5Uh2YV4" />
+test zvuku 2
+
+<vue-sound
+  livestream
+  show-download
+  title="The Show"
+  title-link="http://www.google.com"
+  details="Lorem Ipsum Dolor Sit Amet"
+  details-link="http://www.bing.com"
+  file="http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3"
+/>
 
 ## subnadpis
 
