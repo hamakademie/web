@@ -1,15 +1,32 @@
 # Příprava ke zkouškám - základní informace
 
 Gratulujeme k rozhodnutí udělat si zkoušky pro provoz na radioamatérských pásmech! Zde shrnujeme základní 
-informace o přípravě k získání dvou potřebných dokumentů.
+informace o přípravě k získání **dvou potřebných dokumentů**.
 
 ## Průkaz odborné způsobilosti
-Celým názvem **Průkaz odborné způsobilosti pro obsluhu vysílacích rádiových zařízení amatérské radiokomunikační služby** vybrané třídy (o třídách viz dále). Tento dokument deklaruje, že uchazeč splnil všechny požadavky ke zkoušce pro získání průkazu odborné způsobilosti tak, jak je stanoveno v Doporučení CEPT T/R 61-02. Tento dokument je nutnou podmínkou pro získání vlastní radioamatérské volací značky. Tu však nezískám na základě tohoto dokumentu, ale až po zažádání o **Individuální oprávnění** (viz dále). Průkaz odborné způsobilosti má neomezenou časovou platnost a je akceptován i v dalších zemích, které jsou členy CEPT, nebo přistoupily k Doporučení CEPT T/R 61-01.
+Celým názvem **Průkaz odborné způsobilosti pro obsluhu vysílacích rádiových zařízení amatérské radiokomunikační služby** vybrané třídy (o třídách viz dále). Průkaz odborné způsobilosti deklaruje, že uchazeč splnil všechny požadavky ke zkoušce pro získání průkazu odborné způsobilosti tak, jak je stanoveno v Doporučení CEPT T/R 61-02. Tento dokument je nutnou podmínkou pro získání vlastní radioamatérské volací značky. Tu však nezískám na základě tohoto dokumentu, ale až po zažádání o **Individuální oprávnění** (viz dále). Průkaz odborné způsobilosti má neomezenou časovou platnost a je akceptován i v dalších zemích, které jsou členy CEPT, nebo přistoupily k Doporučení CEPT T/R 61-01.
 
-Průkaz odborné způsobilosti je někdy také nazývaný jako `licence`.
+Průkaz odborné způsobilosti je někdy také nazývaný jako `licence`. V České Republice si můžeš vybrat jednu ze dvou operátorských tříd.
+
+
+#### Třída N - NOVICE
+Začátečnická třída ("novice" je anglické slovo pro začátečníka). 
+Opravňuje držitele k obsluze stanice amatérské služby **s maximálním povoleným výkonem 10 W** v určených pásmech (frekvenčních rozsazích). 
+
+#### Třída A - HAREC
+HAREC je zkratka pro "Harmonised Amateur Radio Examination Certificate".
+Třída A opravňuje držitele k obsluze stanice amatérské služby **ve všech určených pásmech (frekvenčních rozsazích) s použitím maximálního povoleného výkonu**. 
 
 ::: info Náhled hlavičky průkazu odborné způsobilosti HAREC operátora třídy A
 ![Průkaz odborné způsobilosti HAREC operátora třídy A](harec-preview.png)
+:::
+
+::: tip TIP 💡
+Zkoušku na třídu A lze v ČR vykonat rovnou bez nutnosti vykonat nejdříve zkoušku na třídu N. Je to dokonce žádoucí - Zkušenost mnohých operátorů třídy N (NOVICE) ukazuje, že je výhodnější složit zkoušku rovnou na třídu A (HAREC). Pro
+ třídu N totiž platí mnohá omezení, která tě dříve nebo později začnou limitovat. 
+
+Pokud se i tak rozhodneš pro třídu N, měj na paměti, že pokud si budeš chtít "dodělat" třídu A, musíš 
+se naučit všechny otázky znovu, nikoli jen rozdíl mezi třídami A a N. Proto je lepší udělat si rovnou třídu A.
 :::
 
 ## Individuální oprávnění
@@ -21,28 +38,7 @@ Celým názvem **Individuální oprávnění k využívání rádiových kmitoč
 ![Individuální oprávnění k využívání rádiových kmitočtů amatérské radiokomunikační služby](koncese-vzor.webp)
 :::
 
-## Třídy průkazů odborné způsobilosti (licencí) v ČR
-V České Republice si můžeš vybrat jednu ze dvou operátorských tříd:
 
-
-### Třída N - NOVICE
-Začátečnická třída ("novice" je anglické slovo pro začátečníka). 
-Opravňuje držitele k obsluze stanice amatérské služby **s maximálním povoleným výkonem 10 W** v určených pásmech (frekvenčních rozsazích). 
-
-### Třída A - HAREC
-HAREC je zkratka pro "Harmonised Amateur Radio Examination Certificate".
-Třída A opravňuje držitele k obsluze stanice amatérské služby **ve všech určených pásmech (frekvenčních rozsazích) s použitím maximálního povoleného výkonu**. 
-
-Poznámka: Zkoušku na třídu A lze vykonat rovnou bez nutnosti vykonat nejdříve zkoušku na třídu N. Je to dokonce žádoucí, viz tip níže.  
-
-
-::: tip TIP 💡
-Zkušenost mnohých NOVICE operátorů ukazuje, že je lepší udělat si rovnou třídu A (HAREC), protože 
-na třídu N se vztahují mnohá omezení, která tě dříve nebo později začnou limitovat. 
-
-Pokud se i tak rozhodneš pro třídu N, měj na paměti, že pokud si budeš chtít "dodělat" třídu A, musíš 
-se naučit všechny otázky znovu, nikoli jen rozdíl mezi třídami A a N. Proto je lepší udělat si rovnou třídu A.
-:::
 
 ## Co ke zkoušce potřebuji znát?
 Pro úspěšné složení zkoušky je potřeba naučit se správné odpovědi na testové otázky pro vybranou operátorskou třídu.

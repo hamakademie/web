@@ -1,4 +1,13 @@
-# Q kódy
+# Zkratky používané v radioamatérské komunikaci
+
+nejakej text here, origin v telegrafii, neco prevzato do fone 
+
+## Zkratky
+
+todo, mozna tabulka s nejpouzivanejsima?
+
+
+## Q kódy
 
 q kody jsou bla bla, jak vznikly, maji formu otakzy a oznamovaci vety, je jich mnohem vic nez je tady v tabulce
 
@@ -26,3 +35,15 @@ q kody jsou bla bla, jak vznikly, maji formu otakzy a oznamovaci vety, je jich m
 | **QTC** | Do you have a message for me?                                              | I have a message for you.                                                                                            |
 | **QTH** | What is your location (latitude and longitude or by name of the location)? | My location is ... latitude and ... longitude. or : my location is ...                                               |
 | **QTR** | What is the exact time?                                                    | The exact time is...                                                                                                 |
+
+
+
+## Otázky ke zkoušce 🎓
+
+#### Třída A (HAREC)
+- [Testové otázky HAREC z kategorie Zkratky používané v radioamatérské komunikaci](https://hamotazky.cz/harec/prohlizeni/zkratky)
+- [Testové otázky HAREC z kategorie Q kódy](https://hamotazky.cz/harec/prohlizeni/q-kody)
+
+#### Třída N (NOVICE)
+- [Testové otázky NOVICE z kategorie Zkratky používané v radioamatérské komunikaci](https://hamotazky.cz/novice/prohlizeni/zkratky)
+- [Testové otázky NOVICE z kategorie Q kódy](https://hamotazky.cz/novice/prohlizeni/q-kody)

@@ -11,7 +11,10 @@ export default defineConfig({
       { text: 'O amatérském rádiu', link: '/zaciname/' },
       { text: 'Příprava ke zkouškám', link: '/priprava-ke-zkouskam/' },
       { text: 'Tvoje nové oprávnění', link: '/nove-opravneni/' },
-      { text: 'O projektu', link: '/o-projektu/' },
+      { text: 'Informace', items: [
+        { text: 'O projektu', link: '/informace/o-projektu/' },
+        { text: 'O českém radioklubu', link: '/informace/o-ceskem-radioklubu/' },
+      ] },
     ],
 
     sidebar: {
@@ -59,8 +62,16 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
           { text: 'Základní informace', link: '/radiovy-provoz/' },
           { text: 'Volací znak', link: '/radiovy-provoz/volaci-znak' },
           { text: 'Systém RST', link: '/radiovy-provoz/system-rst' },
-          { text: 'Šíření rádiových vln', link: '/radiovy-provoz/sireni-vln' },
+          { text: 'Hláskovací abeceda', link: '/radiovy-provoz/hlaskovaci-abeceda' },
+          { text: 'Zkratky a Q kódy', link: '/radiovy-provoz/zkratky-q-kody' },
           { text: 'Etika a ham spirit', link: '/radiovy-provoz/hamspirit' },
+        ]
+      },
+      {
+        text: 'Šíření rádiových vln',
+        items: [
+          { text: 'Základní informace', link: '/sireni-radiovych-vln/' },
+          // { text: 'Volací znak', link: '/radiovy-provoz/volaci-znak' },
         ]
       },
       {
@@ -69,8 +80,6 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
           { text: 'Radiokomunikační předpisy', link: '/zkouskova-temata/predpisy' },
           { text: 'Rozvrh kmitočtů a druhů provozu', link: '/zkouskova-temata/rozvrh-kmitoctu' },
           { text: 'Provozní dovednosti', link: '/zkouskova-temata/provozni-dovednosti' },
-          { text: 'Q kódy', link: '/zkouskova-temata/q-kody' },
-          { text: 'Hláskovací abeceda', link: '/zkouskova-temata/hlaskovaci-abeceda' },
         ]
       },
   ]

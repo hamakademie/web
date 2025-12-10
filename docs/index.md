@@ -15,6 +15,9 @@ hero:
     - theme: brand
       text: Příprava ke zkouškám
       link: /priprava-ke-zkouskam/
+    - theme: alt
+      text: Tvoje nové oprávnění
+      link: /nove-opravneni/
 
 features:
   - title: Chceš se dozvědět o čem je amatérské rádio?
@@ -23,7 +26,7 @@ features:
   - title: Příprava ke zkouškám operátorů amatérských rádiových stanic
     details: Díky naší on-line učebnici můžeš nastudovat vše potřebné ke zkoušce. Kdykoli, kdekoli a tempem, které si určíš sám. 
     icon: 🎓
-  - title: Získal si čerstvě licenci?
+  - title: Získal jsi čerstvě licenci?
     details: Provedeme tě prvními krůčky po získání licence a doporučíme co udělat a na co se v začátcích zaměřit. 
     icon: 🚀
   

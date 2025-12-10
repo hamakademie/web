@@ -1,3 +1,0 @@
-# Šíření rádiových vln
-
-todo
