@@ -3,7 +3,14 @@
 Amatérské rádio, radioamatérství, nebo anglicky HAM radio, je **zastřešující termín pro rozmanitou škálu aktivit**, 
 které mají společného jmenovatele - **rádiové vlny**.
 
-Je to **technické hobby**, které je trochu věda, trochu dobrodružství a někdy se může zdát, že i magie. 
+::: tip Upřesnění
+Tento web se věnuje vysílání na radioamatérských frekvencích (pásmech). **Pro vysílání na radioamatérských pásmech je potřeba licence**. K jejímu získání ti pomůžeme v následujících kapitolách.
+
+**Rádiový provoz a vysílání je však možné si vyzkoušet i bez skládání zkoušek** - v ČR existují frekvence, které jsou k dispozici i nelicencovaným operátorům. Jedná se o pásma CB ("síbíčko"), PMR, nebo pásma, kterým se lidově říká sdílené kmitočty ("sdílenky").
+:::
+
+
+Amatérské radio je **technické hobby**, které je trochu věda, trochu dobrodružství a někdy se může zdát, že i magie. 
 Někteří lidé ve volném čase chodí rybařit, jiní sbírají známky, a někdo má rád geocaching. My, radioamatéři,
 **milujeme navazování kontaktů s ostatními radioamatéry prostřednictvím rádiových vln**. Protistanice může být poblíž místa ze kterého
 právě vysíláme, na odvrácené straně naší planety, nebo třeba **na oběžné dráze Země ve vesmírné stanici**.

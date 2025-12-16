@@ -14,8 +14,3 @@ Jak jsme nastínili v kapitole [Příprava ke zkouškám](/priprava-ke-zkouskam/
 - Individuální oprávnění k využívání rádiových kmitočtů amatérské radiokomunikační služby (někdy nazýváno jako `koncese`)
 
 Pro získání každé z výše zmíněných listin je potřeba vyplnit příslušný formulář, **celkem tedy budeš vyplňovat dva formuláře**. V článku [Jak vyplnit formuláře](/priprava-ke-zkouskam/jak-vyplnit-formulare) se dozvíš jak na to.
-
-
-## Kde a jak zkouška probíhá?
-regulatorem je CTU, vyhlasuje terminy, zpravidla v praze, odkaz na muj blogpost?
-todo
