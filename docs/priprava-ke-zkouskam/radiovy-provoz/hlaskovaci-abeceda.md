@@ -59,3 +59,14 @@ Díky použití hláskovací abecedy jsou při poslechu nyní obě volací znač
 ## Historie
 
 Mezinárodní telekomunikační unie (ITU) poprvé zavedla mezinárodní fonetickou abecedu v roce 1927 a od té doby ji několikrát revidovala. Aktuálně platná mezinárodní fonetická abeceda je definována v příloze 14 Radiokomunikačního řádu (RR) vydaného ITU. Tato abeceda se používá nejen v amatérském rádiu, ale také v letectví a mimo jiné v NATO.
+
+
+## Otázky ke zkoušce 🎓
+
+#### Třída A (HAREC)
+- [Testové otázky HAREC z kategorie Hláskovací abeceda česká](https://hamotazky.cz/harec/prohlizeni/hlaskovaci-abeceda-ceska)
+- [Testové otázky HAREC z kategorie Hláskovací abeceda mezinárodní](https://hamotazky.cz/harec/prohlizeni/hlaskovaci-abeceda-mezinarodni)
+
+#### Třída N (NOVICE)
+- [Testové otázky NOVICE z kategorie Hláskovací abeceda česká](https://hamotazky.cz/novice/prohlizeni/hlaskovaci-abeceda-ceska)
+- [Testové otázky NOVICE z kategorie Hláskovací abeceda mezinárodní](https://hamotazky.cz/novice/prohlizeni/hlaskovaci-abeceda-mezinarodni)

@@ -71,15 +71,26 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
         text: 'Šíření rádiových vln',
         items: [
           { text: 'Základní informace', link: '/sireni-radiovych-vln/' },
-          // { text: 'Volací znak', link: '/radiovy-provoz/volaci-znak' },
         ]
       },
       {
-        text: 'Zkoušková témata',
+        text: 'Technika',
+        items: [
+          { text: 'TODO', link: '/zkouskova-temata/predpisy' },
+        ]
+      },
+      {
+        text: 'Ostatní zkoušková témata',
         items: [
           { text: 'Radiokomunikační předpisy', link: '/zkouskova-temata/predpisy' },
           { text: 'Rozvrh kmitočtů a druhů provozu', link: '/zkouskova-temata/rozvrh-kmitoctu' },
           { text: 'Provozní dovednosti', link: '/zkouskova-temata/provozni-dovednosti' },
+        ]
+      },
+      {
+        text: 'Další studijní materiály',
+        items: [
+          { text: 'TODO', link: '/zkouskova-temata/predpisy' },
         ]
       },
   ]

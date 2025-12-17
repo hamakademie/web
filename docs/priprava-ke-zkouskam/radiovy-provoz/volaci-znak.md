@@ -11,10 +11,19 @@ prefix/cislo/suffix, prefix = zeme dxcc
 
 ## Volací znaky v ČR
 
-todo tabulka s vysvetlenim 
-jaky jsou povoleny cisla OK1-OK7. ukazat v tabulce prehledne s prikladama
-OL jen pro SES
-cislo a geograficka prislusnost (v CR uz historie, jinde stale v kurzu)
+| Prefix               |  Význam                                   | Příklad          |
+|----------------------|-------------------------------------------|------------------|
+| OK0 a 1-3 znaky      | Neobsluhované stanice (převaděče, majáky) | OK0C, OK0BBF     |
+| OK1-OK7 a 2-3 znaky  | Operátoři s licencí třídy A (HAREC)       | OK2MAX, OK7SKF   |
+| OK8 a 2-3 znaky      | Licence vydané na základě licence třídy A (HAREC) vydané v zahraničí | OK8AB, OK8HEX |
+| OK9 a 3 znaky        | Operátoři s licencí třídy N (NOVICE)      | OK9NKS, OK9DDD   |
+| OK1K-OK2K a 2 znaky  | Licence vydaná pro klubovou stanici       | OK1KKL, OK2KOJ   |
+| OK1O-OK2O a 2 znaky  | Licence vydaná pro klubovou stanici       | OK1OMG, OK2OBR   |
+| OK1R-OK2R a 2 znaky  | Licence vydaná pro klubovou stanici       | OK1RLC, OK2RJC   |
+| OK1-OK7 a 1 znak     | Volací znaky pro použití v radioamatérských závodech | OK2M, OK5L |
+| OL1-OL9 a 1 znak     | Volací znaky pro použití v radioamatérských závodech | OL5W, OL9X |
+| OL1-OL9 a 2-n znaků  | Volací znaky pro speciální události       | OL1KOTA, OL25YOTA |
+
 
 ## Jakou si mám vybrat volací značku/volací znak?
 V žádosti o individální oprávnění mám možnost si navrhnout svou volací značku. **Pokud je značka volná, úřad zpravidla
@@ -30,3 +39,12 @@ Pokud systém najde nějaký záznam, znamená to, že značku používá jiný 
 
 ### Více o volacích značkách
 Pokud tě zajímají mnohem detailnější informace, vynikající popis je v článku [Amateur radio call signs](https://en.wikipedia.org/wiki/Amateur_radio_call_signs) na anglické Wikipedii. 
+
+
+## Otázky ke zkoušce 🎓
+
+#### Třída A (HAREC)
+- [Testové otázky HAREC z kategorie Používání prefixů ve volacích značkách](https://hamotazky.cz/harec/prohlizeni/prefixy)
+
+#### Třída N (NOVICE)
+- [Testové otázky NOVICE z kategorie Používání prefixů ve volacích značkách](https://hamotazky.cz/novice/prohlizeni/prefixy)

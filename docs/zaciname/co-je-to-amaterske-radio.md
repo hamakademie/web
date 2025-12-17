@@ -6,7 +6,7 @@ které mají společného jmenovatele - **rádiové vlny**.
 ::: tip Upřesnění
 Tento web se věnuje vysílání na radioamatérských frekvencích (pásmech). **Pro vysílání na radioamatérských pásmech je potřeba licence**. K jejímu získání ti pomůžeme v následujících kapitolách.
 
-**Rádiový provoz a vysílání je však možné si vyzkoušet i bez skládání zkoušek** - v ČR existují frekvence, které jsou k dispozici i nelicencovaným operátorům. Jedná se o pásma CB ("síbíčko"), PMR, nebo pásma, kterým se lidově říká sdílené kmitočty ("sdílenky").
+**Rádiový provoz a vysílání je však možné si vyzkoušet i bez skládání zkoušek** - v ČR existují frekvence, které jsou k dispozici i nelicencovaným operátorům. Jedná se o pásma CB ("síbíčko"), pásmo PMR, nebo pásma, kterým se lidově říká sdílené kmitočty ("sdílenky").
 :::
 
 
