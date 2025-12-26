@@ -1,5 +1,7 @@
 # Jak se stát radioamatérem?
 
+![Transceiver Icom IC-705](frosty-ic705.webp)
+
 ## 1. Připrav se na zkoušku
 Nastuduj vše potřebné pro zvolenou operátorskou třídu. Vše co potřebuješ vědět a znát najdeš na tomto webu.
 Především v sekcích [rádiový provoz](/priprava-ke-zkouskam/radiovy-provoz/) a [příprava k získání oprávnění](/priprava-ke-zkouskam/).

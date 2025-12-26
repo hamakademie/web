@@ -1,16 +1,18 @@
 # Rádiový provoz
 
 ## Potřebuji licenci?
-Odpověď na tuto otázku je snadná: Pokud se **chystáš vysílat na radioamatérských pásmech, tak oprávnění určitě potřebuješ**.
+Odpověď na tuto otázku je snadná: Pokud se chystáš **vysílat na radioamatérských pásmech**, tak oprávnění určitě **potřebuješ**.
 
-Naopak, pokud se na radioamatérských pásmech chystáš **pouze poslouchat, tak oprávnění není potřeba**. 
+Naopak, pokud se na radioamatérských pásmech chystáš **pouze poslouchat**, tak oprávnění **není potřeba**. 
 
-Existuje dokonce speciální kategorie lidí, kteří spojení nenavazují, ale zabývají se pouze poslechem rádiového provozu. Říkáme jim rádioví posluchači - SWL (z anglického Short Wave Listener). 
+::: tip Rádioví posluchači
+Existuje dokonce speciální kategorie lidí, kteří spojení nenavazují, ale zabývají se pouze poslechem rádiového provozu. Říkáme jim rádioví posluchači, či krátkovlnní posluchači - SWL (z anglického Short Wave Listener). 
 
 Praxe radiového posluchače je skvělá
 pro zájemce chystající se na zkoušku - můžeme se tak seznámit s principy, žargonem, prefixy a jinými aspekty radioamatérského provozu, které se nám budou u zkoušky hodit.
 
 vice o SWL zde = TODO odkaza na no clanek z vysvelenim a detailama, jaky zarizeni a antenu koupit atd??
+:::
 
 
 ## Otevřená řeč
