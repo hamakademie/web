@@ -70,7 +70,8 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
       {
         text: 'Šíření rádiových vln',
         items: [
-          { text: 'Základní informace', link: '/sireni-radiovych-vln/' },
+          { text: 'O rádiových vlnách', link: '/sireni-radiovych-vln/' },
+          { text: 'Způsoby šíření', link: '/sireni-radiovych-vln/zpusoby-sireni' },
         ]
       },
       {

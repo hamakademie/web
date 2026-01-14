@@ -3,8 +3,7 @@
 ![Transceiver Icom IC-705](frosty-ic705.webp)
 
 ## 1. Připrav se na zkoušku
-Nastuduj vše potřebné pro zvolenou operátorskou třídu. Vše co potřebuješ vědět a znát najdeš na tomto webu.
-Především v sekcích [rádiový provoz](/priprava-ke-zkouskam/radiovy-provoz/) a [příprava k získání oprávnění](/priprava-ke-zkouskam/).
+Nastuduj vše potřebné pro zvolenou operátorskou třídu. Vše co potřebuješ vědět a znát najdeš na tomto webu v sekci [příprava k získání oprávnění](/priprava-ke-zkouskam/).
 
 ## 2. Podej přihlášku ke zkoušce
 Tomu, jak na to, se věnujeme zvlášť v článku [jak se přihlásit](/priprava-ke-zkouskam/jak-se-prihlasit).
