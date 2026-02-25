@@ -68,10 +68,12 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
         ]
       },
       {
-        text: 'Šíření rádiových vln',
+        text: 'Rádiové vlny a šíření',
         items: [
           { text: 'O rádiových vlnách', link: '/sireni-radiovych-vln/' },
-          { text: 'Způsoby šíření', link: '/sireni-radiovych-vln/zpusoby-sireni' },
+          { text: 'Rádiové spektrum', link: '/sireni-radiovych-vln/radiove-spektrum' },
+          { text: 'Polarizace', link: '/sireni-radiovych-vln/polarizace' },
+          { text: 'Atmosféra a její vliv', link: '/sireni-radiovych-vln/atmosfera-a-jeji-vliv-na-sireni' },
         ]
       },
       {

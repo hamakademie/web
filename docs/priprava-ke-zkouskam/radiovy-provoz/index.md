@@ -21,7 +21,7 @@ Jedinečným rysem amatérského rádia je **povinnost při vysílání použív
 ## Rádiová komunikace jen mezi licencovanými operátory
 **Amatérské rádio je vyhrazeno pro licencované radioamatéry**. Proto může radioamatér komunikovat pouze s jinými licencovanými radioamatéry. 
 
-Obecně je zakázáno komunikovat za použití radioamatérských pásem s osobami, které nejsou radioamatéry. **Jedinou výjimkou jsou případy nouze nebo katastrof**. V takových situacích je dovoleno používat radioamatérskou stanici i osobami, které radioamatéry nejsou.
+Obecně je zakázáno komunikovat za použití radioamatérských pásem s osobami, které radioamatéry nejsou. **Jedinou výjimkou jsou případy nouze nebo katastrof**. V takových situacích je dovoleno používat radioamatérskou stanici i osobami, které radioamatérskou licenci nemají.
 
 
 ## Komerční využítí

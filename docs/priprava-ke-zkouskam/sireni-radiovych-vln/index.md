@@ -12,7 +12,7 @@ Elektromagnetické záření se skládá ze **dvou složek, elektrické a magnet
 ![Elektromagnetická vlna](elmagvlna.png)
 :::
 
-**Elektromagnetické vlny jsou klíčem k rádiové komunikaci**. Skutečnost, že se mohou šířit na obrovské vzdálenosti a také se **odrážet, lámat a ohýbat**, znamená, že se po mnoho let používají pro komunikaci na všechny vzdálenosti – od několika centimetrů až po tisíce kilometrů.
+**Elektromagnetické vlny jsou klíčem k rádiové komunikaci**. Skutečnost, že se šíří prostorem a také vzhledem k jejich schopnosti se **odrážet, lámat a ohýbat**, znamená, že se používají pro komunikaci na vzdálenosti od několika metrů až po tisíce kilometrů.
 
 ## Rychlost šíření
 
@@ -62,10 +62,11 @@ Kde:
 | 430 MHz|   70cm      |
 | 1,3 GHz|   23cm      |
 
-## Polarizace
-Anténa vysílá **polarizované záření** - polarizaci rádiových vln určuje směr elektrické složky pole (na obrázku 1 značeno jako `E`).
 
-TODO vice detailu a popis proc je to dulezity a jakou to hraje roli
+## Otázky ke zkoušce 🎓
 
+#### Třída A (HAREC)
+- [Testové otázky HAREC z kategorie Elektrická, elektromagnetická a rádiová teorie](https://hamotazky.cz/harec/prohlizeni/elektricka-a-radiova-teorie)
 
-TODO sekce s odkazama na otazky
+#### Třída N (NOVICE)
+- [Testové otázky NOVICE z kategorie Elektrická, elektromagnetická a rádiová teorie](https://hamotazky.cz/novice/prohlizeni/elektricka-a-radiova-teorie)
