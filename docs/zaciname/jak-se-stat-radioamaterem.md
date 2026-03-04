@@ -14,4 +14,4 @@ Jak zkouška zhruba vypadá a co můžeš čekat, se dočteš na stránce [jak z
 
 ## 4. Můžeš vysílat!
 Jen co ti přijde poštou licence a oprávnění k užívání rádiových kmitočtů (lidově koncese) od ČTÚ, můžeš
-začít! Pár rad pro nově koncesované jsme připravili v sekci [tvoje nové oprávnění](/nove-opravneni/).
+začít! Rady pro nově koncesované jsme připravili v sekci [Začínáme s provozem](/zaciname-s-provozem/).
