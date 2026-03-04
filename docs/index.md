@@ -16,8 +16,8 @@ hero:
       text: Příprava ke zkouškám
       link: /priprava-ke-zkouskam/
     - theme: alt
-      text: Tvoje nové oprávnění
-      link: /nove-opravneni/
+      text: Začínáme s provozem
+      link: /zaciname-s-provozem/
 
 features:
   - title: Chceš se dozvědět o čem je amatérské rádio?

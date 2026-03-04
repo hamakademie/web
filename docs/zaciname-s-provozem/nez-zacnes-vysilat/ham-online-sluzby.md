@@ -1,0 +1,3 @@
+# HAM online služby
+
+jaky jsou mainstream ham sluzby a kde se registrovat - lotw, qrz, eqsl, clublog....
