@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.15",
+    "vitepress": "^2.0.0-alpha.16",
     "vue-sound": "^0.1.10"
   },
   "scripts": {
@@ -9,6 +9,6 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@miletorix/vitepress-youtube-embed": "^1.0.2"
+    "@miletorix/vitepress-youtube-embed": "^1.0.3"
   }
 }
