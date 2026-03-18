@@ -52,6 +52,7 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
         text: 'Úvod',
         items: [
           { text: 'Základní informace', link: '/' },
+          { text: 'Kdy se koná další zkouška', link: '/kdy-se-kona-dalsi-zkouska' },
           { text: 'Jak se přihlásit', link: '/jak-se-prihlasit' },
           { text: 'Jak vyplnit formuláře', link: '/jak-vyplnit-formulare' },
           { text: 'Jak zkouška probíhá', link: '/jak-zkouska-probiha' },
@@ -93,7 +94,7 @@ function sidebarExamPreparation(): DefaultTheme.SidebarItem[] {
       {
         text: 'Další studijní materiály',
         items: [
-          { text: 'TODO', link: '/zkouskova-temata/predpisy' },
+          { text: 'Příprava operátorů dle ČRK', link: '/dalsi-materialy/priprava-operatoru' },
         ]
       },
   ]
@@ -105,11 +106,23 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
         text: 'Než začneš vysílat',
         items: [
           { text: 'Právě jsem složil zkoušku', link: '/' },
-          { text: 'Jaké rádio si mám pořídít?', link: '/nez-zacnes-vysilat/jake-radio-si-poridit' },
-          { text: 'Kde můžu vysílat?', link: '/nez-zacnes-vysilat/kde-muzu-vysilat' },
-          { text: 'Staniční deník', link: '/stanicni-denik' },
-          { text: 'QSL lístky a QSL služba', link: '/nez-zacnes-vysilat/qsl-ĺistky' },
+          { text: 'QSL lístky a QSL služba', link: '/nez-zacnes-vysilat/qsl-listky' },
           { text: 'HAM online služby', link: '/nez-zacnes-vysilat/ham-online-sluzby' },
+        ]
+      },
+      {
+        text: 'Staniční deník',
+        items: [
+          { text: 'Úvod', link: '/stanicni-denik/' },
+          { text: 'Možnosti pro vedení deníku', link: '/stanicni-denik/moznosti' },
+        ]
+      },
+      {
+        text: 'Výběr vysílacího vybavení',
+        items: [
+          { text: 'Úvod', link: '/vyber-vybaveni/' },
+          { text: 'Výběr transceiveru na KV', link: '/vyber-vybaveni/transceiver-na-kv' },
+          { text: 'Výběr antény na KV', link: '/vyber-vybaveni/antena-na-kv' },
         ]
       },
       {
@@ -117,6 +130,7 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
         items: [
           { text: 'Úvod', link: '/provoz-na-pasmu/' },
           { text: 'Etika a ham spirit', link: '/provoz-na-pasmu/hamspirit' },
+          { text: 'Kde můžu vysílat?', link: '/provoz-na-pasmu/kde-muzu-vysilat' },
           { text: 'Jak navázat spojení?', link: '/provoz-na-pasmu/jak-navazat-spojeni' },
           { text: 'Převaděčový provoz', link: '/provoz-na-pasmu/prevadecovy-provoz' },
         ]
