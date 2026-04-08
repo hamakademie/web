@@ -1,4 +1,4 @@
-# Jaké vybavení si mám pořídít?
+# Jaké vybavení si mám pořídit?
 
 Zdánlivě jednoduchá otázka, na kterou však není jednoduché odpovědět. **Při výběru rádia (transceiveru) a entény vstupuje do rozhodování mnoho faktorů**. Čím jasnější představu budeš mít, tím bude rozhodování jednodušší. Než začnu s výběrem, je potřeba si ujasnit následující:
 

@@ -113,14 +113,14 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
       {
         text: 'Staniční deník',
         items: [
-          { text: 'Úvod', link: '/stanicni-denik/' },
+          { text: 'Co je staniční deník', link: '/stanicni-denik/' },
           { text: 'Možnosti pro vedení deníku', link: '/stanicni-denik/moznosti' },
         ]
       },
       {
         text: 'Výběr vysílacího vybavení',
         items: [
-          { text: 'Úvod', link: '/vyber-vybaveni/' },
+          { text: 'Jaké vybavení pořídit', link: '/vyber-vybaveni/' },
           { text: 'Výběr transceiveru na KV', link: '/vyber-vybaveni/transceiver-na-kv' },
           { text: 'Výběr antény na KV', link: '/vyber-vybaveni/antena-na-kv' },
         ]
@@ -128,7 +128,7 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
       {
         text: 'Provoz na pásmu',
         items: [
-          { text: 'Úvod', link: '/provoz-na-pasmu/' },
+          { text: 'Provoz na HAM pásmech', link: '/provoz-na-pasmu/' },
           { text: 'Etika a ham spirit', link: '/provoz-na-pasmu/hamspirit' },
           { text: 'Kde můžu vysílat?', link: '/provoz-na-pasmu/kde-muzu-vysilat' },
           { text: 'Jak navázat spojení?', link: '/provoz-na-pasmu/jak-navazat-spojeni' },
@@ -147,6 +147,7 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
         items: [
           { text: 'Měření PSV', link: '/prakticke/mereni-psv' },
           { text: 'Lokátory', link: '/prakticke/lokatory' },
+          { text: 'HAM Alert', link: '/prakticke/hamalert' },
         ]
       },
       {
