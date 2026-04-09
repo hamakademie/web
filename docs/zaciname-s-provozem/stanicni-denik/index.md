@@ -3,6 +3,10 @@
 Myšlenka staničního deníku (anglicky logu) je velmi jednoduchá. **Jde o místo, kam si zapisovat své uskutečněná spojení**.
 V dobách dávno minulých, před masovým rozšířením počítačů se spojení zapisovala do papírového deníku. Tyto doby jsou pryč a dnes naprostá většina radioamatérů vede své deníky v počítači, případně používají webové deníky.
 
+::: info Závodní log v papírové podobě
+![Závodní log v papírové podobě](paper-log.png)
+:::
+
 ::: tip Poznámka
 Ačkoli zákon nevyžaduje vedení staničního deníku (vyjma klubových stanic), téměř všichni si staniční deník vedou.
 :::

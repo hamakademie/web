@@ -35,6 +35,7 @@ Další možností jak si vést deník jsou různé webové aplikace. K dispozic
 - ❌ Potřeba internetového připojení
 - ❌ Někdy složitější propojení s rádiem/jiným hardwarem
 - ❌ U self-hosted deníků (např. Wavelog) složitější zprovoznění
+- ❌ Někdy placené
 
 ## Deníky pro portable vysílání
 tuzka papir, ham2k v mobilu-tabletu, FLE,

@@ -56,6 +56,9 @@ Hláskovací abecedu je nutné si zapamatovat, protože v provozu na pásmech se
 
 Díky použití hláskovací abecedy jsou při poslechu nyní obě volací značky snadno rozlišitelné a to i při slabším signálu.
 
+## Trénink hláskovací abecedy
+Nejlepším tréninkem pro zafixování hláskovací abecedy je **poslech reálného provozu** na pásmech, nicméně existují i pomůcky pro trénink a zapamatování, jako je například [webová aplikace Phone Trainer](https://trainer.ok1cdj.com/) od Ondry OK1CDJ.
+
 ## Historie
 
 Mezinárodní telekomunikační unie (ITU) poprvé zavedla mezinárodní fonetickou abecedu v roce 1927 a od té doby ji několikrát revidovala. Aktuálně platná mezinárodní fonetická abeceda je definována v příloze 14 Radiokomunikačního řádu (RR) vydaného ITU. Tato abeceda se používá nejen v amatérském rádiu, ale také v letectví a mimo jiné v NATO.

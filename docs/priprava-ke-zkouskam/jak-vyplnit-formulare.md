@@ -1,5 +1,9 @@
 # Jaký je postup pro vyplnění formulářů?
 
+::: info Náhled přihlašovacího formuláře na ePortálu ČTÚ
+![Náhled přihlašovacího formuláře na ePortálu ČTÚ](ctu-formular.png)
+:::
+
 ## Formálně správný způsob
 1. Vyplnit formulář [Přihláška ke zkoušce odborné způsobilosti k obsluze vysílacích rádiových zařízení](https://eportal.ctu.gov.cz/form/10) a zaplatit správní poplatek
 

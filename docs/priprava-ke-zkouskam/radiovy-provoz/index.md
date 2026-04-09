@@ -25,4 +25,4 @@ Obecně je zakázáno komunikovat za použití radioamatérských pásem s osoba
 
 
 ## Komerční využítí
-Amatérské rádio nesmí být používáno pro komerční účely, například pro provozování komunikace v rámci taxislužby. K tomu slouží tzv. profesionální pásma, která podléhají jiné legislativě a pravidlům.
+Amatérské rádio **nesmí být používáno pro komerční účely**, například pro provozování komunikace v rámci taxislužby. K tomu slouží tzv. profesionální pásma, která podléhají jiné legislativě a pravidlům.
