@@ -148,6 +148,7 @@ function sidebarGettingStartedOnAir(): DefaultTheme.SidebarItem[] {
           { text: 'Měření PSV', link: '/prakticke/mereni-psv' },
           { text: 'Lokátory', link: '/prakticke/lokatory' },
           { text: 'HAM Alert', link: '/prakticke/hamalert' },
+          { text: 'Vysílání z ciziny', link: '/prakticke/vysilani-z-ciziny' },
         ]
       },
       {

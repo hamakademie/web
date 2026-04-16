@@ -9,8 +9,14 @@ Volací znak sestává ze sekvence písmen a číslic podle přesně daného sch
 
 ![Anatomie volací značky](callsign-anatomie.svg)
 
-### Speciální případy
-TODO /p /m /mm /am /4, CEPT vysilani z jine zeme
+- **Prefix** označuje zemi, ze které vysílám. **Prefixy nejsou složené jen z písmen**, některé prefixy v sobě obsahují číslo, jako například jeden prefixů Polska (3Z), Černé Hory (4O) apod. **Před značkou může být ještě jiný prefix oddělený lomítkem**, např. SP/OK1ABC/P, což znamená, že stanice OK1ABC vysílá krátkodobě v rámci povolení CEPT z Polska. [Vysílání z jiných zemí](/zaciname-s-provozem/prakticke/vysilani-z-ciziny) je komplexnější téma, proto se mu věnujeme v samostatném článku.
+
+- **Číslo** odděluje prefix a sufix. V některých zemích má každé číslo svůj význam, například v ČR jsou volací znaky s číslem 0 vyhrazené pro neobsluhované stanice (majáky, převaděče), na Slovensku číslo určuje kraj (např. číslo 6 je žilinský kraj) a v některých zemích speciální význam nemá.
+
+- **Sufix** je unikátní označení stanice a má 1-3 písmena. V některých zemích je přidělován automaticky, v ČR je možné si ho vybrat, pokud daný sufix již nepoužívá jiná stanice.
+
+- **Modifikátor** zpravidla určuje speciální případy vysílání. Pro **portable** provoz (provoz z přechodného stanoviště, jinými slovy z jiného stanoviště, než má zapsáno ve svém individuálním oprávnění) se uvádí za značkou /P. Pro **mobilní** provoz (například z auta) se uvádí za značkou /M. Tyto dva modifikátory jsou celosvětově nejpoužívanější. Některé stanice, které chtějí zdůraznit, že vysílají malým výkonem, používají modifikátor /QRP. Existují i jiné modifikátory, jako například pro vysílání z lodi se používá za značkou /MM (maritime mobile), nebo pro vysílání z letadla /AM (aero mobile), je to však spíše rarita.
+
 
 ## Volací znaky v ČR
 
