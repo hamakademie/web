@@ -10,7 +10,7 @@ Tyto mezinárodní dohody platí pro státy, **které jsou členy těchto organi
 
 Radioamatéři mohou být hrdí na to, že amatérské rádio je součástí nejdůležitější mezinárodní telekomunikační smlouvy, Radiokomunikačního řádu (RR). Jeho obecná pravidla platí pro všechny rádiové služby včetně amatérského rádia.
 
-Zatímco ITU se prostřednictvím svých předpisů zabývá základními otázkami týkajícími se amatérského rádia na celém světě, CEPT koordinuje standardy v Evropě. CEPT vypracoval doporučení týkající se **obsahu radioamatérských zkoušek a vzájemného uznávání radioamatérských licencí**. Dále stanovuje pravidla pro provozní práva amatérského rádia během krátkodobých pobytů v jiných členských státech. Toto téma jsme již podrobně diskutovali v kontextu mezinárodního radioamatérského provozu.
+Zatímco ITU se prostřednictvím svých předpisů zabývá základními otázkami týkajícími se amatérského rádia na celém světě, CEPT koordinuje standardy v Evropě. CEPT vypracoval doporučení týkající se **obsahu radioamatérských zkoušek a vzájemného uznávání radioamatérských licencí**. Dále stanovuje pravidla pro provoz stanice amatérského rádia během krátkodobých pobytů v jiných členských státech. Toto téma jsme již podrobně diskutovali v kontextu mezinárodního radioamatérského provozu.
 
 ## Seznam nejdůležitějších dokumentů
 

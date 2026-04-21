@@ -1,6 +1,6 @@
 # Volací znak
 
-**Volací znak**, také **volací značka**, či anglicky **callsign**, je jedinečná a celosvětově platná identifikace konkrétního radioamatéra.
+**Volací znak**, také **volací značka**, či anglicky **callsign**, je jedinečná a celosvětově platná identifikace konkrétní radioamatérské stanice. Zpravidla je to konkrétní člověk, ale může se jednat o klubovou stanici, pod kterou může pracovat více různých operátorů, nebo se může jednat o stanici, kterou neobsluhuje člověk (například radioamatérský maják nebo převaděč).
 
 Při rádiovém provozu je třeba volací značku uvádět **na začátku a na konci každé relace**, a během relací které trvají déle je třeba svůj volací znak uvádět minimálně každých 10 minut.
 
@@ -15,7 +15,7 @@ Volací znak sestává ze sekvence písmen a číslic podle přesně daného sch
 
 - **Sufix** je unikátní označení stanice a má 1-3 písmena. V některých zemích je přidělován automaticky, v ČR je možné si ho vybrat, pokud daný sufix již nepoužívá jiná stanice.
 
-- **Modifikátor** zpravidla určuje speciální případy vysílání. Pro **portable** provoz (provoz z přechodného stanoviště, jinými slovy z jiného stanoviště, než má zapsáno ve svém individuálním oprávnění) se uvádí za značkou /P. Pro **mobilní** provoz (například z auta) se uvádí za značkou /M. Tyto dva modifikátory jsou celosvětově nejpoužívanější. Některé stanice, které chtějí zdůraznit, že vysílají malým výkonem, používají modifikátor /QRP. Existují i jiné modifikátory, jako například pro vysílání z lodi se používá za značkou /MM (maritime mobile), nebo pro vysílání z letadla /AM (aero mobile), je to však spíše rarita.
+- **Modifikátor** zpravidla určuje speciální případy vysílání. Pro **portable** provoz (provoz z přechodného stanoviště, tedy jiného, než má operátor zapsáno ve svém individuálním oprávnění) se uvádí za značkou /P. Pro **mobilní** provoz (například z auta) se uvádí za značkou /M. Tyto dva modifikátory jsou celosvětově nejpoužívanější. Některé stanice, které chtějí zdůraznit, že vysílají malým výkonem, používají modifikátor /QRP. Existují i jiné modifikátory, jako například pro vysílání z lodi se používá za značkou /MM (maritime mobile), nebo pro vysílání z letadla /AM (aero mobile), je to však spíše rarita.
 
 
 ## Volací znaky v ČR
@@ -36,20 +36,40 @@ Volací znak sestává ze sekvence písmen a číslic podle přesně daného sch
 
 ## Jakou si mám vybrat volací značku/volací znak?
 V žádosti o individální oprávnění mám možnost si navrhnout svou volací značku. **Pokud je značka volná, úřad zpravidla
-návrhu vyhoví a značku přidělí**.
+návrhu vyhoví a značku přidělí**. Často si lidé volí iniciály svého jména nebo přezdívky, někdy si zase operátoři značku vybírají tak, aby dobře zněla při hláskování, byla co nejkratší, nebo zněla dobře při telegrafickém vysílání. 
 
-TODO prakticke rady ke tvorbe - delka, telegraf?
+### Praktické rady k výběru volací značky
+**Obecně je lepší kratší značka než delší**, protože při dávání výzev ušetříme čas a to jak v telegrafním (CW) provozu, tak i ve fonickém (FONE) provozu, kde navíc ušetříme i hlasivky. 
 
-::: info Jak zjistím, jestli je značka volná?
+Délka značky je ovlivněna i výběrem znaků. Kratší je například "Oscar Kilo One Echo Lima Bravo", než "Oscar Kilo One November Juliet Sierra". Podobně je to v telegrafním provozu, kde je délka značky daná především délkou jednotlivých znaků a proto je z hlediska délky pro CW provoz lepší OK5AMR než OK1XQY. Z pohledu digitálních módů na délce volací značky spíše nezáleží.
+
+Každý operátor má však jiné preference a pracuje různými druhy provozu, takže zmíněné rady je třeba brát s rezervou.
+
+### Jak zjistím, jestli je značka volná?
 Jestli je mnou požadovaný volací znak volný zjistím na [Informačním portálu o udělených individuálních oprávněních](https://ctu.gov.cz/vyhledavaci-databaze/databaze-pridelenych-radiovych-kmitoctu-podle-vydanych-pridelu-a-individualnich-opravneni/amateri). Stačí vyplnit můj návrh na značku do pole `Volací značka` (ostatní pole nechat volná) a potvrdit. 
 
 Pokud systém najde nějaký záznam, znamená to, že značku používá jiný držitel. Pokud systém žádný záznam nenajde, je značka nejpíše k dispozici. Schválně píšeme nejspíše: pokud vybraná značka vypršela teprve nedávno a původní držitel značku zatím neprodloužil, ČTÚ drží "ochrannou lhůtu" pro původního držitele. Jak je lhůta dlouhá není známo, ale slouží k ochraně původního majitele pro případ, že by ze závažných důvodů nemohl svou značku prodloužit ve stanoveném termínu těsně před vypršením.
-:::
 
 ## Prefixy volacích značek ve zkoušce
-Prefixy volacích znaků jsou jedno z nejobávanějších zkouškových témat, protože neexistuje žádný klíč, podle kterého by se daly snadno zapamatovat. 
+Prefixy volacích znaků jsou jedno z nejobávanějších zkouškových témat, protože neexistuje žádný klíč, podle kterého by se daly snadno zapamatovat. Existuje však několik způsobů, které se zapamtováním mohou pomoci.
 
 TODO poslech na pasmu, mapa, audio, mnemotechnike pomucky, utility programy, co o zemi vim
+
+<vue-sound
+  livestream
+  show-download
+  title="Prefixy"
+  title-link="https://hamakademie-180765953038-eu-central-1-an.s3.eu-central-1.amazonaws.com/audio/prefixy.mp3"
+  file="https://hamakademie-180765953038-eu-central-1-an.s3.eu-central-1.amazonaws.com/audio/prefixy.mp3"
+/>
+
+<vue-sound
+  livestream
+  show-download
+  title="Prefixy - mezinárodní hláskovací abeceda"
+  title-link="https://hamakademie-180765953038-eu-central-1-an.s3.eu-central-1.amazonaws.com/audio/prefixy-hlaskovaci.mp3"
+  file="https://hamakademie-180765953038-eu-central-1-an.s3.eu-central-1.amazonaws.com/audio/prefixy-hlaskovaci.mp3"
+/>
 
 ### Více o volacích značkách
 Pokud tě zajímají mnohem detailnější informace, vynikající popis je v článku [Amateur radio call signs](https://en.wikipedia.org/wiki/Amateur_radio_call_signs) na anglické Wikipedii. 

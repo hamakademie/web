@@ -8,7 +8,7 @@ Pro radiomatéry mají zkratky význam i v tom, že umožňují překonat jazyko
 
 Nejznámější soustavou kódů jsou tzv. **Q-kódy charakterizované skupinou tří písmen, z nichž první je "Q"**.
 
-::: info Info
+::: info Poznámka
 Q-kódy jsou důvodem, proč bylo mezinárodně přijato pravidlo, které neumožňuje mít volací znak, jež má třípísmenný suffix začínající písmenem Q. 
 :::
 

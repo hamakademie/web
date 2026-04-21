@@ -1,4 +1,4 @@
-## Jak a kde zkouška probíhá?
+# Jak a kde zkouška probíhá?
 
 V drtivé většině případů se zkoušky konají v Praze, v budově ČTÚ. Veškeré informace o konání zkoušky jsou v pozvánce, která ti po přihlášení dorazí poštou.
 
