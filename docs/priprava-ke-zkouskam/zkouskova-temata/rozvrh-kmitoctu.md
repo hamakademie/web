@@ -27,12 +27,16 @@ Bandplanů je pro jeden konkrétní region více, protože se ještě dále děl
 - Bandplan SHF (SHF z anglického super high frequency - česky `super krátké vlny`)
 - Bandplan µWave (µWave - česky `mikrovlny`)
 
-Aktuální verzi všech výše zmíněných bandplanů lze nalézt na webu IARU. Pro region 1 jsou k dispozici na tomto odkazu: [IARU - Region 1 Band Plans](https://www.iaru-r1.org/reference/band-plans/).
+Aktuální verzi všech výše zmíněných bandplanů lze nalézt na webu IARU. Pro region 1 (kam spadá ČR) jsou k dispozici na tomto odkazu: [IARU - Region 1 Band Plans](https://www.iaru-r1.org/reference/band-plans/).
 
 Bandplany jednotlivých regionů se v některých věcech liší, ale zpravidla lze vždy nalézt průnik v kmitočtech a druzích provozu ve všech regionech - díky tomu můžeme mluvit s radioamatéry nacházejícími se v jiném IARU regionu, než jsme my sami. 
 
 ## Rozvrh radioamatérských kmitočtů v ČR
 V ČR jsou radioamatérské kmitočty, druhy provozu a povolené výkony, definované v [Příloze č. 1 vyhlášky č. 156/2005 Sb.](https://www.zakonyprolidi.cz/cs/2005-156#f5769053). Kmitočty a výkony jsou rozdělené dle operátorských tříd a až na drobné výjímky odpovídají téměř přesně bandplanu IARU pro region 1.
+
+::: info Poznámka
+Každá země totiž může provozovat na svém území rádiové služby, které se s radioamatérskými pásmy překrývají a mají vyšší prioritu, než radioamatérský provoz. Kmitočtové rozsahy v bandplanech IARU jsou tedy používány jako základ, který je pak transponován do národní legislativy s ohledem na tyto prioritní služby. 
+:::
 
 
 ## Otázky ke zkoušce 🎓

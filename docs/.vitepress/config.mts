@@ -3,7 +3,7 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "HAM Akademie",
-  description: "Výukový portál pro budoucí radioamatéry",
+  description: "Výukový portál pro začínající radioamatéry",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 

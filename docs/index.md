@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "HAM Akademie"
-  text: "Výukový portál pro budoucí radioamatéry"
+  text: "Výukový portál pro začínající radioamatéry"
   image:
     dark: ./logo1.png
     light: ./logo2.jpeg
