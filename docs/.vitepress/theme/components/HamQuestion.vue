@@ -105,7 +105,8 @@ function isLocked(answer) {
 
 function answerState(answer) {
   if (!answered.value) return ''
-  if (answer.correct) return 'correct'
+  // After a wrong pick, the correct row is revealed only once the red one has settled.
+  if (answer.correct) return answer.id === selectedId.value ? 'correct' : 'correct reveal-late'
   if (answer.id === selectedId.value) return 'wrong'
   return 'dimmed'
 }
@@ -172,7 +173,7 @@ watch(() => [props.topic, props.licence, props.question], load)
             >
               <span class="hq-letter">{{ LETTERS[i] }})</span>
               <span class="hq-answer-text">{{ answer.text }}</span>
-              <span v-if="answerState(answer) === 'correct'" class="hq-mark" aria-label="správná odpověď">✓</span>
+              <span v-if="answered && answer.correct" class="hq-mark" aria-label="správná odpověď">✓</span>
               <span v-else-if="answerState(answer) === 'wrong'" class="hq-mark" aria-label="tvoje odpověď">✗</span>
             </button>
           </li>
@@ -274,6 +275,24 @@ watch(() => [props.topic, props.licence, props.question], load)
 .hq-answer.correct {
   border-color: var(--vp-c-green-1);
   background-color: var(--vp-c-green-soft);
+}
+
+/* Correct row after a wrong pick: hold the neutral look while the wrong row
+   turns red (0.35s), then turn green. Fill "backwards" only, so afterwards the
+   normal rules (incl. hover) apply again. */
+.hq-answer.reveal-late {
+  animation: hq-reveal-correct 0.35s ease-out 0.35s backwards;
+}
+
+.hq-answer.reveal-late .hq-mark {
+  animation-delay: 0.35s;
+}
+
+@keyframes hq-reveal-correct {
+  from {
+    border-color: var(--vp-c-divider);
+    background-color: var(--vp-c-bg);
+  }
 }
 
 .hq-answer.wrong {
@@ -420,7 +439,8 @@ watch(() => [props.topic, props.licence, props.question], load)
 @media (prefers-reduced-motion: reduce) {
   .hq-skeleton { animation: none; }
   .hq-answer { transition: none; }
-  .hq-mark { animation: none; }
+  .hq-mark,
+  .hq-answer.reveal-late { animation: none; }
   .hq-swap-enter-active,
   .hq-swap-leave-active { transition: none; }
 }
