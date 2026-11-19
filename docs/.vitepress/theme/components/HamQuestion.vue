@@ -141,55 +141,58 @@ watch(() => [props.topic, props.licence, props.question], load)
 
 <template>
   <section class="ham-question" :aria-busy="status === 'loading'">
-    <div v-if="status === 'loading'" class="hq-placeholder">
-      <div class="hq-skeleton hq-skeleton-text" />
-      <div v-for="n in 3" :key="n" class="hq-skeleton hq-skeleton-answer" />
-    </div>
-
-    <div v-else-if="status === 'error'" class="hq-error">
-      <p>Otázku se nepodařilo načíst.</p>
-      <div class="hq-actions">
-        <button type="button" class="hq-button" @click="load">Zkusit znovu</button>
-        <a class="hq-link" :href="browseUrl" target="_blank" rel="noopener">Otevřít otázky na hamotazky.cz ↗</a>
+    <!-- Old content fades out, then the new one fades in (loading → question, and between questions). -->
+    <Transition name="hq-swap" mode="out-in">
+      <div v-if="status === 'loading'" class="hq-placeholder">
+        <div class="hq-skeleton hq-skeleton-text" />
+        <div v-for="n in 3" :key="n" class="hq-skeleton hq-skeleton-answer" />
       </div>
-    </div>
 
-    <template v-else-if="question">
-      <p class="hq-meta">
-        Otázka č. {{ question.code }}
-        <template v-if="currentTopic"> · <a class="hq-link" :href="browseUrl" target="_blank" rel="noopener">{{ currentTopic.name }} ↗</a></template>
-      </p>
-      <p class="hq-text">{{ question.text }}</p>
+      <div v-else-if="status === 'error'" class="hq-error">
+        <p>Otázku se nepodařilo načíst.</p>
+        <div class="hq-actions">
+          <button type="button" class="hq-button" @click="load">Zkusit znovu</button>
+          <a class="hq-link" :href="browseUrl" target="_blank" rel="noopener">Otevřít otázky na hamotazky.cz ↗</a>
+        </div>
+      </div>
 
-      <ul class="hq-answers">
-        <li v-for="(answer, i) in answers" :key="answer.id">
+      <div v-else-if="question" :key="`q-${position}`" class="hq-body">
+        <p class="hq-meta">
+          Otázka č. {{ question.code }}
+          <template v-if="currentTopic"> · <a class="hq-link" :href="browseUrl" target="_blank" rel="noopener">{{ currentTopic.name }} ↗</a></template>
+        </p>
+        <p class="hq-text">{{ question.text }}</p>
+
+        <ul class="hq-answers">
+          <li v-for="(answer, i) in answers" :key="answer.id">
+            <button
+              type="button"
+              class="hq-answer"
+              :class="answerState(answer)"
+              :disabled="isLocked(answer)"
+              :aria-pressed="answer.id === selectedId"
+              :title="answered && answer.correct && !single ? 'Další otázka' : undefined"
+              @click="select(answer)"
+            >
+              <span class="hq-letter">{{ LETTERS[i] }})</span>
+              <span class="hq-answer-text">{{ answer.text }}</span>
+              <span v-if="answerState(answer) === 'correct'" class="hq-mark" aria-label="správná odpověď">✓</span>
+              <span v-else-if="answerState(answer) === 'wrong'" class="hq-mark" aria-label="tvoje odpověď">✗</span>
+            </button>
+          </li>
+        </ul>
+
+        <footer v-if="!single" class="hq-footer">
           <button
             type="button"
-            class="hq-answer"
-            :class="answerState(answer)"
-            :disabled="isLocked(answer)"
-            :aria-pressed="answer.id === selectedId"
-            :title="answered && answer.correct && !single ? 'Další otázka' : undefined"
-            @click="select(answer)"
-          >
-            <span class="hq-letter">{{ LETTERS[i] }})</span>
-            <span class="hq-answer-text">{{ answer.text }}</span>
-            <span v-if="answerState(answer) === 'correct'" class="hq-mark" aria-label="správná odpověď">✓</span>
-            <span v-else-if="answerState(answer) === 'wrong'" class="hq-mark" aria-label="tvoje odpověď">✗</span>
-          </button>
-        </li>
-      </ul>
-
-      <footer v-if="!single" class="hq-footer">
-        <button
-          type="button"
-          class="hq-button hq-button-secondary"
-          :disabled="!hasPrevious"
-          @click="previousQuestion"
-        >← Předchozí</button>
-        <button type="button" class="hq-button" @click="nextQuestion">Další otázka →</button>
-      </footer>
-    </template>
+            class="hq-button hq-button-secondary"
+            :disabled="!hasPrevious"
+            @click="previousQuestion"
+          >← Předchozí</button>
+          <button type="button" class="hq-button" @click="nextQuestion">Další otázka →</button>
+        </footer>
+      </div>
+    </Transition>
   </section>
 </template>
 
@@ -243,11 +246,24 @@ watch(() => [props.topic, props.licence, props.question], load)
   line-height: 1.5;
   text-align: left;
   cursor: pointer;
-  transition: border-color 0.2s, background-color 0.2s, opacity 0.2s;
+  transition:
+    border-color 0.35s ease-out,
+    background-color 0.35s ease-out,
+    opacity 0.45s ease-out;
 }
 
-.hq-answer:not(:disabled):hover {
-  border-color: var(--vp-c-brand-1);
+/* Hover only with a real pointer (touch screens keep :hover after a tap),
+   and in neutral grey so it can't be mistaken for the green "correct" state. */
+@media (hover: hover) {
+  .hq-answer:not(:disabled):hover {
+    border-color: var(--vp-c-text-3);
+    background-color: var(--vp-c-bg-elv);
+  }
+
+  .hq-answer.correct:not(:disabled):hover {
+    border-color: var(--vp-c-green-1);
+    background-color: color-mix(in srgb, var(--vp-c-green-1) 24%, transparent);
+  }
 }
 
 .hq-answer:focus-visible {
@@ -262,11 +278,6 @@ watch(() => [props.topic, props.licence, props.question], load)
 .hq-answer.correct {
   border-color: var(--vp-c-green-1);
   background-color: var(--vp-c-green-soft);
-}
-
-.hq-answer.correct:not(:disabled):hover {
-  border-color: var(--vp-c-green-1);
-  background-color: color-mix(in srgb, var(--vp-c-green-1) 24%, transparent);
 }
 
 .hq-answer.wrong {
@@ -290,6 +301,7 @@ watch(() => [props.topic, props.licence, props.question], load)
 
 .hq-mark {
   flex: none;
+  animation: hq-mark-in 0.35s ease-out both;
   font-weight: 700;
 }
 
@@ -380,6 +392,31 @@ watch(() => [props.topic, props.licence, props.question], load)
   margin-bottom: 8px;
 }
 
+@keyframes hq-mark-in {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.hq-swap-leave-active {
+  transition: opacity 0.25s ease-in, transform 0.25s ease-in;
+  /* the fading-out question must not take clicks meant for the new one */
+  pointer-events: none;
+}
+
+.hq-swap-enter-active {
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+}
+
+.hq-swap-leave-to {
+  opacity: 0;
+  transform: translateY(-4px);
+}
+
+.hq-swap-enter-from {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
 @keyframes hq-pulse {
   50% { opacity: 0.5; }
 }
@@ -387,5 +424,8 @@ watch(() => [props.topic, props.licence, props.question], load)
 @media (prefers-reduced-motion: reduce) {
   .hq-skeleton { animation: none; }
   .hq-answer { transition: none; }
+  .hq-mark { animation: none; }
+  .hq-swap-enter-active,
+  .hq-swap-leave-active { transition: none; }
 }
 </style>
