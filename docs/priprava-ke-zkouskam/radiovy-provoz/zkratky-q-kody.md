@@ -54,6 +54,8 @@ Radioamatérských zkratek je veliké množství, proto je zde neuvádíme. Nast
 
 ## Otázky ke zkoušce 🎓
 
+<HamQuestion topic="zkratky,q-kody" />
+
 #### Třída A (HAREC)
 - [Testové otázky HAREC z kategorie Zkratky používané v radioamatérské komunikaci](https://hamotazky.cz/harec/prohlizeni/zkratky)
 - [Testové otázky HAREC z kategorie Q kódy](https://hamotazky.cz/harec/prohlizeni/q-kody)

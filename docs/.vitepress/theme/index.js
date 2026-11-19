@@ -7,10 +7,13 @@ import '@miletorix/vitepress-youtube-embed/style.css'
 import { VueSound } from 'vue-sound'
 import 'vue-sound/style.css';
 
+import HamQuestion from './components/HamQuestion.vue'
+
 export default {
   extends: DefaultTheme,
   enhanceApp(ctx) {
     ctx.app.component('YouTubeEmbed', YouTubeEmbed)
     ctx.app.component('VueSound', VueSound)
+    ctx.app.component('HamQuestion', HamQuestion)
   }
 }

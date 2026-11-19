@@ -65,6 +65,8 @@ Kde:
 
 ## Otázky ke zkoušce 🎓
 
+<HamQuestion topic="sireni-radiovych-vln" />
+
 #### Třída A (HAREC)
 - [Testové otázky HAREC z kategorie Elektrická, elektromagnetická a rádiová teorie](https://hamotazky.cz/harec/prohlizeni/elektricka-a-radiova-teorie)
 

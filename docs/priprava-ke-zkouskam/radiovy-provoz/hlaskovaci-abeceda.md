@@ -66,6 +66,8 @@ Mezinárodní telekomunikační unie (ITU) poprvé zavedla mezinárodní fonetic
 
 ## Otázky ke zkoušce 🎓
 
+<HamQuestion topic="hlaskovaci-abeceda-ceska,hlaskovaci-abeceda-mezinarodni" />
+
 #### Třída A (HAREC)
 - [Testové otázky HAREC z kategorie Hláskovací abeceda česká](https://hamotazky.cz/harec/prohlizeni/hlaskovaci-abeceda-ceska)
 - [Testové otázky HAREC z kategorie Hláskovací abeceda mezinárodní](https://hamotazky.cz/harec/prohlizeni/hlaskovaci-abeceda-mezinarodni)

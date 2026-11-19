@@ -2,6 +2,8 @@
 
 Jako téměř všude se i na pásmech člověk může setkat s radioamatéry, jejichž chování v éteru nám může kazit požitek z vysílání. **Amatérské rádio při vysílání spoléhá na silnou sebekázeň a slušné chování**. Časem vznikla některá psaná i nepsaná pravidla, která mají za cíl tento požitek z vysílání maximalizovat, a to jak pro nás, **tak pro ostatní**.
 
+<YouTubeEmbed video-id="QReg5Uh2YV4" />
+
 ## Ham Spirit
 HAM Spirit je soubor nepsaných norem chování uvnitř komunity radioamatérů a příznivců radioamatérského vysílání, a to i vůči širokému okolí a veřejnosti. Jeho první verzi formuloval Paul M. Segal (W9EEA) v roce 1928.
 
@@ -21,16 +23,3 @@ HAM Spirit je soubor nepsaných norem chování uvnitř komunity radioamatérů 
 Nezapomínejme, že ham radio je hobby. A hobby je ze své definice něco, co by nám mělo přinášet radost a potěšení! 
 
 
-
-<YouTubeEmbed video-id="QReg5Uh2YV4" />
-test zvuku 2
-
-<vue-sound
-  livestream
-  show-download
-  title="The Show"
-  title-link="http://www.google.com"
-  details="Lorem Ipsum Dolor Sit Amet"
-  details-link="http://www.bing.com"
-  file="http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3"
-/>
