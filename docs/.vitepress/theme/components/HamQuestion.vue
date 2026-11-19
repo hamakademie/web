@@ -4,19 +4,20 @@
 // Usage in markdown:
 //   <HamQuestion topic="q-kody" />
 //   <HamQuestion topic="zkratky,q-kody" licence="N" />
-//   <HamQuestion topic="q-kody" question="227" />
+//   <HamQuestion question="669" />
 //
 // Props:
-//   topic    – topic slug(s) from hamotazky.cz, comma separated to mix topics
+//   topic    – topic slug(s) from hamotazky.cz, comma separated to mix topics;
+//              when omitted, questions come from the whole question bank
 //   licence  – licence class "A" (HAREC, default) or "N" (NOVICE)
-//   question – optional question code ("Otázka č."); shows only that one
-//              question, without previous/next navigation
+//   question – optional question number ("Otázka č." shown in the box); shows
+//              only that one question, without previous/next navigation
 
 import { computed, onMounted, ref, watch } from 'vue'
-import { DEFAULT_LICENCE, LICENCE_CLASSES, getQuestionByCode, getQuestionPool, topicBrowseUrl } from '../api/hamotazky.js'
+import { DEFAULT_LICENCE, LICENCE_CLASSES, getQuestion, getRandomQuestions, topicBrowseUrl } from '../api/hamotazky.js'
 
 const props = defineProps({
-  topic: { type: String, required: true },
+  topic: { type: String, default: '' },
   licence: {
     type: String,
     default: DEFAULT_LICENCE,
@@ -32,7 +33,6 @@ const slugs = computed(() => props.topic.split(',').map((s) => s.trim()).filter(
 const single = computed(() => props.question !== null && String(props.question).trim() !== '')
 
 const status = ref('loading') // 'loading' | 'ready' | 'error'
-const topics = ref([])
 
 // Questions shown so far, each with its answer order and the user's pick,
 // so "previous" can go back and show it exactly as it was left.
@@ -49,7 +49,7 @@ const selectedId = computed(() => entry.value?.selectedId ?? null)
 const hasPrevious = computed(() => position.value > 0)
 
 const answered = computed(() => selectedId.value !== null)
-const currentTopic = computed(() => topics.value.find((t) => t.slug === question.value?.topicSlug) ?? topics.value[0])
+const currentTopic = computed(() => question.value?.topic ?? null)
 const browseUrl = computed(() => topicBrowseUrl(currentTopic.value?.slug ?? slugs.value[0], licenceClass.value))
 
 function shuffle(items) {
@@ -117,14 +117,10 @@ async function load() {
     history.value = []
     position.value = -1
     if (single.value) {
-      const result = await getQuestionByCode(String(props.question).trim(), slugs.value, licenceClass.value)
-      topics.value = result.topics
-      pool = [result.question]
+      pool = [await getQuestion(String(props.question).trim())]
     } else {
-      const result = await getQuestionPool(slugs.value, licenceClass.value)
-      if (!result.questions.length) throw new Error('No questions in selected topics')
-      topics.value = result.topics
-      pool = result.questions
+      pool = await getRandomQuestions(slugs.value, licenceClass.value)
+      if (!pool.length) throw new Error('No questions in selected topics')
     }
     nextQuestion()
     status.value = 'ready'
@@ -158,7 +154,7 @@ watch(() => [props.topic, props.licence, props.question], load)
 
       <div v-else-if="question" :key="`q-${position}`" class="hq-body">
         <p class="hq-meta">
-          Otázka č. {{ question.code }}
+          Otázka č. {{ question.id }}
           <template v-if="currentTopic"> · <a class="hq-link" :href="browseUrl" target="_blank" rel="noopener">{{ currentTopic.name }} ↗</a></template>
         </p>
         <p class="hq-text">{{ question.text }}</p>

@@ -2,8 +2,7 @@
 // https://hamotazky.cz/api/v1/docs/
 //
 // Everything that knows about the API's response shape lives here, so the
-// widget only works with the normalized objects below. When a dedicated
-// single-question endpoint exists, only this file needs to change.
+// widget only works with the normalized objects below.
 
 const API_BASE = 'https://hamotazky.cz/api/v1'
 const WEB_BASE = 'https://hamotazky.cz'
@@ -11,90 +10,87 @@ const WEB_BASE = 'https://hamotazky.cz'
 export const LICENCE_CLASSES = ['A', 'N']
 export const DEFAULT_LICENCE = 'A'
 
+// The API returns at most 100 questions per request.
+const MAX_QUESTIONS = 100
+
 // In-memory caches of pending/settled promises, shared by all widgets on the
 // page (and across client-side navigation), so each resource is fetched once.
-const topicsCache = new Map()
-const questionsCache = new Map()
+let topicsPromise = null
+const questionCache = new Map()
 
-async function getJson(path, params) {
-  const url = `${API_BASE}${path}?${new URLSearchParams(params)}`
-  const res = await fetch(url, { headers: { Accept: 'application/json' } })
-  if (!res.ok) throw new Error(`hamotazky API ${res.status} for ${path}`)
+async function getJson(path, params = {}) {
+  const query = new URLSearchParams(params).toString()
+  const res = await fetch(`${API_BASE}${path}${query ? `?${query}` : ''}`, {
+    headers: { Accept: 'application/json' },
+  })
+  if (!res.ok) {
+    // Errors come as { error, status }; fall back to the status code.
+    const body = await res.json().catch(() => null)
+    throw new Error(`hamotazky API ${res.status} for ${path}: ${body?.error ?? res.statusText}`)
+  }
   return res.json()
 }
 
-function cached(cache, key, load) {
-  if (!cache.has(key)) {
-    // Drop failed requests from the cache so a retry can try again.
-    cache.set(key, load().catch((err) => { cache.delete(key); throw err }))
+/**
+ * All topics, keyed by topic ID. Questions only carry a topicId, so this is
+ * used to show the topic name and link.
+ * @returns {Promise<Map<string, {id: string, slug: string, name: string}>>}
+ */
+function getTopics() {
+  if (!topicsPromise) {
+    topicsPromise = getJson('/topics')
+      .then((data) => new Map(data.map((t) => [
+        String(t.topicId),
+        { id: String(t.topicId), slug: t.topicSlug, name: t.name },
+      ])))
+      .catch((err) => { topicsPromise = null; throw err })
   }
-  return cache.get(key)
-}
-
-/** @returns {Promise<Array<{id: string, slug: string, name: string, questionCount: number}>>} */
-export function getTopics(licence) {
-  return cached(topicsCache, licence, async () => {
-    const data = await getJson('/topics', { licenceClass: licence })
-    return data.map((t) => ({
-      id: String(t.topicId ?? t.id),
-      slug: t.topicSlug,
-      name: t.name,
-      questionCount: t.questionCount,
-    }))
-  })
-}
-
-export async function getTopicBySlug(slug, licence) {
-  const topics = await getTopics(licence)
-  const topic = topics.find((t) => t.slug === slug)
-  if (!topic) throw new Error(`Unknown topic "${slug}" for licence class ${licence}`)
-  return topic
+  return topicsPromise
 }
 
 /**
- * @returns {Promise<Array<{id: string, code: string, text: string, topicSlug: string,
- *   answers: Array<{id: string, text: string, correct: boolean}>}>>}
+ * @returns {{id: string, text: string, topic: {id, slug, name} | null,
+ *   answers: Array<{id: string, text: string, correct: boolean}>}}
  */
-export function getQuestionsByTopic(topic, licence) {
-  return cached(questionsCache, `${licence}:${topic.id}`, async () => {
-    const data = await getJson('/questions-by-topic-id', { topicId: topic.id, licenceClass: licence })
-    return (data.questions ?? data).map((q) => ({
-      id: String(q.questionId ?? q.id),
-      code: String(q.questionCode ?? q.code),
-      text: q.text,
-      topicSlug: topic.slug,
-      answers: q.answers.map((a) => ({
-        id: String(a.answerId ?? a.id),
-        text: a.text,
-        correct: Boolean(a.isCorrect),
-      })),
-    }))
-  })
-}
-
-/** All questions from the given topic slugs, merged into one pool. */
-export async function getQuestionPool(slugs, licence) {
-  const topics = await Promise.all(slugs.map((s) => getTopicBySlug(s, licence)))
-  const lists = await Promise.all(topics.map((t) => getQuestionsByTopic(t, licence)))
-  return { topics, questions: lists.flat() }
+function normalizeQuestion(q, topics) {
+  return {
+    id: String(q.questionId),
+    text: q.text,
+    topic: topics.get(String(q.topicId)) ?? null,
+    answers: q.answers.map((a) => ({
+      id: String(a.answerId),
+      text: a.text,
+      correct: Boolean(a.isCorrect),
+    })),
+  }
 }
 
 /**
- * One question by its code (the "Otázka č." number), looked up in the given
- * topics. TODO: switch to a dedicated endpoint once the API offers one, so
- * the topic is no longer needed.
+ * A random selection (up to 100) of questions from the given topic slugs and
+ * licence class. Without slugs, questions from all topics are used.
  */
-export async function getQuestionByCode(code, slugs, licence) {
-  const { topics, questions } = await getQuestionPool(slugs, licence)
-  const question = questions.find((q) => q.code === String(code))
-  if (!question) {
-    throw new Error(`Question ${code} not found in topic(s) "${slugs.join(', ')}" for licence class ${licence}`)
-  }
-  return { topics, question }
+export async function getRandomQuestions(slugs, licence) {
+  const params = { licenceClass: licence, count: MAX_QUESTIONS }
+  if (slugs.length) params.topicSlug = slugs.join(',')
+  const [data, topics] = await Promise.all([getJson('/random-questions', params), getTopics()])
+  return data.map((q) => normalizeQuestion(q, topics))
 }
 
-/** Link to the topic in the hamotazky.cz question browser. */
+/** One question by its ID (the "Otázka č." number shown in the widget). */
+export function getQuestion(id) {
+  const key = String(id)
+  if (!questionCache.has(key)) {
+    const load = Promise.all([getJson(`/questions/${encodeURIComponent(key)}`), getTopics()])
+      .then(([data, topics]) => normalizeQuestion(data[0], topics))
+      .catch((err) => { questionCache.delete(key); throw err })
+    questionCache.set(key, load)
+  }
+  return questionCache.get(key)
+}
+
+/** Link to a topic in the hamotazky.cz question browser (or its home page). */
 export function topicBrowseUrl(slug, licence) {
+  if (!slug) return WEB_BASE
   const section = licence === 'N' ? 'novice' : 'harec'
   return `${WEB_BASE}/${section}/prohlizeni/${slug}`
 }
